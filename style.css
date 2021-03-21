@@ -1,0 +1,110 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(rgba(53, 11, 240, 0.6),rgba(0, 0, 0, 0.8) ),  url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper{
+    width: 700px;
+    min-height: 400px;
+    margin: 0 auto;
+   /*  background: rgb(0, 0, 0); */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header{
+    height: 100px;
+    background: transparent;
+    text-align: center;
+    color: #fff;
+}
+
+.header h1{
+    font-size: 48pt;
+    font-weight: 400;
+    color: #fff;
+}
+ 
+.mainbody{
+    width: 410px;
+    background: rgba(0, 0, 0, .7);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    color: #fff;
+}
+
+.mainbody h1{
+    font-size: 30pt;
+}
+
+.mainbody .inp{   
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #fff;
+    width: calc(100% - 30px);
+    padding: 15px;
+    margin-bottom: 30px;
+    background: none;
+}
+
+.mainbody .inp::placeholder{
+    color: #fff;
+}
+
+.mainbody .lnk{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.mainbody .lnk .chk{
+    float: left;
+}
+
+.mainbody .lnk a{
+    float: right;
+}
+
+.mainbody .lgnbtn{
+    width: 100%;
+    font-size: 15pt;
+    padding: 15px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.mainbody .lgnbtn:hover{
+    background: #29292a;
+    color: #fff;
+}
+
+footer{
+   /*  background: orange; */
+    text-align: center;
+    color: #fff;
+}
+
+footer a, .lnk a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover, .lnk a:hover{
+    background: #fff;
+    color: teal;
+}
+
+
+
